@@ -1,18 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
 
 :root {
   /* Colors */
-  --first-color: hsl(353, 100%, 65%);
-  --title-color: hsl(244, 24%, 26%);
-  --text-color: hsl(244, 16%, 43%);
-  --body-color: hsl(258, 60%, 98%);
+  --primary-color: #1B1AFF;
+  --secondary-color: #FF5113;
+  --text-color-dark: hsl(0, 0%, 6%);
+  --text-color-light: hsl(0, 0%, 100%);
+  --body-color: hsl(0, 0%, 86%);
   --container-color: #fff;
 
   /* Font  */
   --body-font: 'Rubik', sans-serif;
-  --h1-font-size: 2.25rem;
-  --h2-font-size: 1.5rem;
-  --h3-font-size: 1.25rem;
+  --h1-font-size: 7.5rem;
+  --h2-font-size: 5rem;
+  --h3-font-size: 2.5rem;
   --normal-font-size: 1rem;
   --small-font-size: 0.875rem;
   --smaller-font-size: 0.813rem;
@@ -61,11 +63,11 @@ textarea {
 body {
   background-color: var(--body-color);
   line-height: 1.7;
-  color: var(--text-color);
+  color: var(--text-color-dark);
 }
 
 h1, h2, h3 {
-  color: var(--title-color);
+  color: var(--title-color-dark);
   font-weight: var(--font-semibold);
   line-height: 1.2;
 }
@@ -108,11 +110,10 @@ img {
 }
 
 .section__title {
-  font-size: var(--h1-font-size);
-  margin-left: 0.875rem;
-  font-weight: var(--font-bold);
+  font-family: 'Tilt Warp', sans-serif;
+  font-size: var(--h2-font-size);
   position: relative;
-  margin-bottom: 3.75rem;
+  margin: 1rem;
 }
 
 .section__title::before {
@@ -133,8 +134,9 @@ img {
   border: 1px solid transparent;
   color: #fff;
   display: inline-block;
-  background-color: var(--first-color);
+  background-color: var(--secondary-color);
   font-weight: var(--font-bold);
+  margin-top: 2rem;
 }
 
 @keyframes button-push {

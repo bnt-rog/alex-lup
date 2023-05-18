@@ -16,7 +16,9 @@
 }
 
 .home__name {
-    font-style: 100;
+    font-family: 'Tilt Warp', sans-serif;
+    font-size: 7.5rem;
+    font-style: var(--h1-font-size);
     font-weight: var(--font-bold);
     margin-bottom: 0.5rem;
 }
@@ -29,7 +31,7 @@
 }
 
 .home__social-link {
-    color: var(--title-color);
+    color: var(--text-color-dark);
     font-style: 1.3rem;
     transition: 0.3s;
 }
@@ -47,10 +49,11 @@
 
 .home__scroll-name {
     font-size: var(--small-font-size);
+    color: var(--text-color-dark);
 }
 
 .mouse {
-    border: 2px solid var(--text-color);
+    border: 2px solid var(--text-color-dark);
     display: block;
     height: 1.6rem;
     width: 1.25rem;
@@ -76,7 +79,7 @@
 }
 
 .wheel {
-    background-color: var(--title-color);
+    background-color: var(--text-color-dark);
     border-radius: 100%;
     width: 0.25rem;
     height: 0.25rem;

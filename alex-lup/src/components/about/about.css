@@ -1,0 +1,11 @@
+.about__container {
+    grid-template-columns: 2fr 4fr;
+    column-gap: 1.875rem;
+    background-color: var(--primary-color);
+    color: var(--text-color-light);
+}
+
+.about__description {
+    margin: 2rem;
+}
+

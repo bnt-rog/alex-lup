@@ -3,7 +3,7 @@
     left: 0;
     top: 0;
     background: var(--body-color);
-    border-right: 1px solid rgba(0, 0, 0, 0.05);
+    border-right: 1px solid rgb(0, 0, 0);
     padding: 2rem;
     width: 150px;
     min-height: 100vh;
@@ -21,7 +21,7 @@
 
 .nav__link {
     font-size: 1rem;
-    color: var(--title-color);
+    color: var(--text-color-dark);
     font-weight: var(--font-bold);
     transition: 0.3s;
 }
