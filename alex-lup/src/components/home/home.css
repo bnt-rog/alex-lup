@@ -37,7 +37,7 @@
 }
 
 .home__social-link:hover {
-    color: hsl(43, 100%, 68%);
+    color: var(--secondary-color);
 }
 
 .scroll__down {
