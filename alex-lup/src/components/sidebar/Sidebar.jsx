@@ -5,35 +5,33 @@ import Logo from "../../assets/logo.svg"
 const Sidebar = () => {
   return (
     <aside className='aside'>
-      <a href="#home" className="nav__logo">
-        <img src={Logo} alt=''/>
-      </a>
+      <a href="#home" className="nav__logo"></a>
       <nav className='nav'>
         <div className='nav__menu'>
           <ul className='nav__list'>
             <li className="nav__item">
               <a href="#home" className="nav__link">
-                <i className="icon-home"></i>
+                Home
               </a>
             </li>
             <li className="nav__item">
               <a href="#about" className="nav__link">
-                <i className="icon-user-following"></i>
+                About me
               </a>
             </li>
             <li className="nav__item">
               <a href="#services" className="nav__link">
-                <i className="icon-briefcase"></i>
+                Services
               </a>
             </li>
             <li className="nav__item">
               <a href="#portfolio" className="nav__link">
-                <i className="icon-layers"></i>
+                Portfolio
               </a>
             </li>
             <li className="nav__item">
               <a href="#contact" className="nav__link">
-                <i className="icon-bubble"></i>
+                Contact
               </a>
             </li>
           </ul>
@@ -41,7 +39,7 @@ const Sidebar = () => {
       </nav>
 
       <div className="nav__footer">
-        <span className="copyright">&copy; 2023 - bnt-rog</span>
+        <span className="copyright">&copy; 2023</span>
       </div>
     </aside>
   )
